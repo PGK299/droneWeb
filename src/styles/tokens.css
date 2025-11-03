@@ -1,0 +1,25 @@
+:root {
+  /* === Brand Surface Gradient === */
+  --bg: linear-gradient(135deg, #849ff8 0%, #90bbe7 50%, #c7e1fc 100%);
+
+  /* === Surfaces === */
+  --card: rgba(255, 255, 255, 0.88);
+  --card-blur: blur(16px);
+
+  /* === Text === */
+  --ink: #0f172a;
+  --muted: #64748b;
+
+  /* === Borders & Separation === */
+  --line: rgba(0, 0, 0, 0.08);
+  --ring: rgba(17, 24, 39, 0.06);
+
+  /* === Table Zebra / Hover === */
+  --zebra: rgba(255, 255, 255, 0.5);
+  --hover: rgba(255, 255, 255, 0.7);
+
+  /* === Primary Button Gradient === */
+  --primary: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  --primary-hover: #0b1220;
+  --brand-ink: #ffffff;
+}

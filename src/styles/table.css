@@ -1,0 +1,33 @@
+.table-scroll {
+  overflow: auto;
+  border-radius: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f8fafc;
+  font-weight: 700;
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.table tbody td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.table tbody tr:nth-child(even) {
+  background: var(--zebra);
+}
+.table tbody tr:hover {
+  background: var(--hover);
+}
