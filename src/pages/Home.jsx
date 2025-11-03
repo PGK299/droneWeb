@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <section className="card">
@@ -8,20 +10,20 @@ export default function Home() {
       </p>
 
       <div className="grid" style={{ marginTop: "16px" }}>
-        <a href="/config" className="feature-card">
+        <Link to="/config" className="feature-card">
           <h2>View Config</h2>
           <p>Inspect drone identity, attributes, and metadata.</p>
-        </a>
+        </Link>
 
-        <a href="/log" className="feature-card">
+        <Link to="/log" className="feature-card">
           <h2>Log Temperature</h2>
           <p>Record environmental metrics and submit data points.</p>
-        </a>
+        </Link>
 
-        <a href="/logs" className="feature-card">
+        <Link to="/logs" className="feature-card">
           <h2>View Logs</h2>
           <p>Analyze flight telemetry and operational footprint.</p>
-        </a>
+        </Link>
       </div>
     </section>
   );
